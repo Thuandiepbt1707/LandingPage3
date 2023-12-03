@@ -147,5 +147,36 @@ p{
     background-color: #EEEFF2;
     width: 2px;
     height: 200%;
-    /* transform: rotate(90deg); */
+}
+
+/*----------feature----------*/
+
+.feature{
+    padding: 0 200px;
+    display: flex;
+    gap: 226px;
+    align-items: flex-end;
+}
+.feature__content{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    width: 511px;
+}
+.feature__content h3{
+    color: #0B132A;
+    font-size: 46px;
+    line-height: 66px;
+}
+.feature__content > p{
+    font-size: 21px;
+    line-height: 40px;
+}
+.feature__content--list{
+    list-style-image: url(../img/checker_icon.png);
+    margin-left: 43px;
+}
+.feature__content--list li{
+    font-size: 21.3px;
+    line-height: 40px;
 }
