@@ -83,6 +83,7 @@ p{
 
 /*--------------------main--------------------*/
 /*----------getting----------*/
+
 .getting{
     padding: 110px 200px;
     display: flex;
@@ -109,4 +110,42 @@ p{
 }
 .getting_content .btn:hover{
     box-shadow: 0 30px 50px -20px var(--clst);
+}
+
+
+/*----------infor----------*/
+
+.infor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 137px auto;
+    padding: 50px 200px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    padding-left: 150px;
+    padding-right: 110px;
+}
+.item_content > p{
+    color: #0B132A;
+    font-size: 33px;
+}
+.item_content p:last-child{
+    font-size: 26px;
+}
+.item:nth-child(2)::before,
+.item:last-child::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -50%;
+    left: 0;
+    background-color: #EEEFF2;
+    width: 2px;
+    height: 200%;
+    /* transform: rotate(90deg); */
 }
