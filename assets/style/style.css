@@ -1,3 +1,6 @@
+:root{
+    --clst: #F53838;
+}
 *{
     margin: 0;
     padding: 0;
@@ -10,13 +13,15 @@ body{
     justify-content: start;
     align-items: center;
 }
+p{
+    color: #4F5665;
+}
+.btn{
+    text-decoration: none;
+}
 
-/* button{
-    background-color: unset;
-    border: none;
-    outline: none;
-    cursor: pointer;
-} */
+
+/*--------------------Header--------------------*/
 
 .header{
     display: flex;
@@ -57,7 +62,6 @@ body{
 .in__up .btn{
     padding: 17px 60px;
     border-radius: 66px;
-    text-decoration: none;
     font-size: 21.3px;
     font-weight: 700;
     transition: all .2s linear;
@@ -67,11 +71,42 @@ body{
     color: #0B132A;
 }
 .signup{
-    border: 1px solid #F53855;
-    color: #F53855;
+    border: 1px solid var(--clst);
+    color: var(--clst);
 }
 .in__up .btn:hover{
-    background-color: #F53855;
-    border: 1px solid #F53855;
+    background-color: var(--clst);
+    border: 1px solid var(--clst);
     color: white;
+}
+
+
+/*--------------------main--------------------*/
+/*----------getting----------*/
+.getting{
+    padding: 110px 200px;
+    display: flex;
+    gap: 54px;
+}
+.getting_content h1{
+    margin-bottom: 27px;
+    font-size: 66.71px;
+    line-height: 93.4px;
+}
+.getting_content p{
+    margin-bottom: 66px;
+    font-size: 21px;
+    line-height: 40px;
+}
+.getting_content .btn{
+    background-color: var(--clst);
+    padding: 23px 103px;
+    border-radius: 13px;
+    line-height: 33px;
+    color: #ffffff;
+    font-size: 21px;
+    transition: all .2s linear;
+}
+.getting_content .btn:hover{
+    box-shadow: 0 30px 50px -20px var(--clst);
 }
