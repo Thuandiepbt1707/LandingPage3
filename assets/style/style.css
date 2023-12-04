@@ -16,12 +16,10 @@ body{
     background-color: rgba(22, 37, 53, 0.035);
     width: 100%;
 }
-p{
-    color: #4F5665;
-    line-height: 40px;
-}
-.p1{
-    font-size: 21px;
+h1{
+    margin-bottom: 27px;
+    font-size: 66.71px;
+    line-height: 93.4px;
 }
 h2{
     color: #0B132A;
@@ -32,6 +30,13 @@ h3{
     color: #0B132A;
     font-size: 24px;
     line-height: 40px;
+}
+p{
+    color: #4F5665;
+    line-height: 40px;
+}
+.p1{
+    font-size: 21px;
 }
 .btn{
     border-radius: 66px;
@@ -95,7 +100,7 @@ h3{
     font-weight: 700;
 }
 .signin{
-    border: 1px solid #00000000;
+    border: 2px solid #00000000;
     color: #0B132A;
 }
 
@@ -116,18 +121,15 @@ h3{
 
 .getting{
     display: flex;
-    gap: 54px;
+    justify-content: space-between;
+    align-items: start;
     margin-top: 110px;
     margin-bottom: 137px;
 }
 .getting_content{
     width: 740px;
 }
-.getting_content h1{
-    margin-bottom: 27px;
-    font-size: 66.71px;
-    line-height: 93.4px;
-}
+
 .getting_content p{
     margin-bottom: 66px;
 }
@@ -140,8 +142,8 @@ h3{
     font-size: 21px;
 }
 .getting_img img{
+    aspect-ratio: calc(815 / 510);
     width: 815px;
-    height: 510px;
 }
 
 /*----------infor----------*/
@@ -256,7 +258,7 @@ h3{
 .plan__list--item:hover{
     border: 1px solid var(--clst);
 }
-.plan__list--item h2{
+.plan__list--item h3{
     margin: 40px auto;
 }
 .plan__list--item ul{
