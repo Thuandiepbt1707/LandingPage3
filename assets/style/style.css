@@ -265,3 +265,11 @@ h3{
     width: 740px;
     text-align: center;
 }
+/*----------connection----------*/
+.connection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    width: calc(100% - 400px);
+}
