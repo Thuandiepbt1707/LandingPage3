@@ -100,7 +100,7 @@ p{
     font-weight: 700;
 }
 .signin{
-    border: 2px solid #00000000;
+    border: 2px solid black;
     color: #0B132A;
 }
 
@@ -410,6 +410,7 @@ p{
     margin-right: 26px;
     border-radius:50%;
     box-shadow: 0 10px 30px -10px #4F5665;
+    cursor: pointer;
 }
 .footer ul{
     list-style-type: none;
