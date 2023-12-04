@@ -19,7 +19,6 @@ body{
 p{
     color: #4F5665;
     line-height: 40px;
-    
 }
 .p1{
     font-size: 21px;
@@ -383,4 +382,37 @@ h3{
     padding: 23px 86px;
     border-radius: 13px !important;
     color: #ffffff;
+}
+
+/*--------------------Footer--------------------*/
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(22, 37, 53, 0.066);
+    padding: 231px 200px 141px;
+    height: 751px;
+    border-left: 25.222px solid #FFF;
+    border-right: 25.222px solid #FFF;
+    border-bottom: 25.222px solid #FFF;
+}
+.footer__contact{
+    width: 453px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+.footer__icons img{
+    height: 44px;
+    margin-right: 26px;
+    border-radius:50%;
+    box-shadow: 0 10px 30px -10px #4F5665;
+}
+.footer ul{
+    list-style-type: none;
+    /* width: 200px; */
+}
+.footer p{
+    opacity: 0.8;
 }
